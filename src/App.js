@@ -6,7 +6,7 @@ import FeatureIconDisplay from "./FeatureIcon.js";
 import SideBySide from './SideBySide.js';
 import SideBySideFlipped from './SideBySideFlipped.js';
 
-import Podium from './assets/podium.png'; 
+import Podium from './assets/podium.png';
 import Rocket from './assets/rocket.png';
 
 function App() {
@@ -15,6 +15,13 @@ function App() {
       <HeroImage></HeroImage>
       <SideBySide
       header="Compete with friends"
+      text="Prove your mettle and compete for prizes against investors from around the world in skill-based competitions designed for all types of investors."
+      image={Podium}
+      ></SideBySide>
+
+      <HeroImage></HeroImage>
+      <SideBySide
+      header="TEST 1"
       text="Prove your mettle and compete for prizes against investors from around the world in skill-based competitions designed for all types of investors."
       image={Podium}
       ></SideBySide>
