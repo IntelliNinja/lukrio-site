@@ -19,7 +19,6 @@ function App() {
       image={Podium}
       ></SideBySide>
 
-      <HeroImage></HeroImage>
       <SideBySide
       header="TEST 1"
       text="Prove your mettle and compete for prizes against investors from around the world in skill-based competitions designed for all types of investors."
